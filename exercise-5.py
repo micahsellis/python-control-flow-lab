@@ -18,10 +18,10 @@ b = 1
 
 for x in range(0, 51):
     if x == 0:
-        print(f'term: {x} / number: 0')
-    if x == 1 or x == 2:
+        print(f'term: {x} / number: {x}')
+    elif x == 1 or x == 2:
         print(f'term: {x} / number: {b}')
-    elif x > 2:
+    else:
         n = a + b
         b = a
         a = n
